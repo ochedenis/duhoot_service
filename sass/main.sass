@@ -193,7 +193,7 @@ header
 
 .login-form
   position: relative
-  margin: 10% auto
+  margin: 1% auto
   width: 300px
   height: 355px
   background-color: rgba(0, 0, 0, 0.9)
@@ -252,19 +252,23 @@ header
 .login-form__rm
   font-size: 14px
   margin-left: 135px
-  position: relative
   margin-top: 5px
   width: 110px
-  height: 15px
 
   label
+    display: block
     cursor: pointer
+    height: 15px
+    width: 105px
+    position: relative
 
   input
-    position: absolute
-    top: -4px
-    left: -17px
     cursor: pointer
+    margin: 0
+    padding: 0
+    position: absolute
+    top: 0
+    left: -15px
 
 .login-form__login
   display: block
@@ -565,7 +569,7 @@ section
     border-radius: 17px
     text-align: center
     cursor: pointer
-    padding-top: 13px
+    padding-top: 12px
     display: flex
     justify-content: center
 
@@ -621,7 +625,7 @@ section
   text-transform: uppercase
   border: 1px solid #b5bfc1
   border-radius: 25px
-  padding-top: 12px
+  padding-top: 11px
   padding-left: 11px
   cursor: pointer
   user-select: none
@@ -639,7 +643,7 @@ section
   text-transform: uppercase
   border: 1px solid #b5bfc1
   border-radius: 25px
-  padding-top: 12px
+  padding-top: 11px
   padding-left: 11px
   cursor: pointer
   margin-top: 1.3px
@@ -731,7 +735,7 @@ section
   height: 270px
   border-radius: 5px
   position: relative
-  padding-top: 98px
+  padding-top: 93px
 
   &:hover .bigWd-hover-block
     display: block
@@ -744,7 +748,7 @@ section
   font-size: 12px
   text-align: center
   border-radius: 13px
-  padding-top: 8px
+  padding-top: 6px
   position: absolute
   top: 5px
   right: 5px
@@ -960,7 +964,7 @@ section
 
   .offer-smallWd-description
     p
-      margin-top: 35px
+      margin-top: 37px
     a
       color: #f19e1f
 
@@ -978,6 +982,10 @@ section
     padding-top: 10px
 
   .offer-smallWd-description
+
+    p
+      margin-top: 37px
+
     a
       color: #88499c
 
@@ -1249,6 +1257,7 @@ footer
   color: white
   font-size: 24px
   text-align: center
+  cursor: default
 
 .footer__subscribe__input
   margin: 50px auto
@@ -1559,8 +1568,8 @@ footer
         cursor: pointer
         cursor: hand
         box-sizing: border-box
-        padding-top: 1px
-        padding-left: 0.3px
+        padding-top: 0
+        padding-left: 1px
 
     ul
       opacity: 0

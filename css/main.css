@@ -214,7 +214,7 @@ header {
 
 .login-form {
   position: relative;
-  margin: 10% auto;
+  margin: 1% auto;
   width: 300px;
   height: 355px;
   background-color: rgba(0, 0, 0, 0.9);
@@ -273,17 +273,21 @@ header {
 .login-form__rm {
   font-size: 14px;
   margin-left: 135px;
-  position: relative;
   margin-top: 5px;
-  width: 110px;
-  height: 15px; }
+  width: 110px; }
   .login-form__rm label {
-    cursor: pointer; }
+    display: block;
+    cursor: pointer;
+    height: 15px;
+    width: 105px;
+    position: relative; }
   .login-form__rm input {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
     position: absolute;
-    top: -4px;
-    left: -17px;
-    cursor: pointer; }
+    top: 0;
+    left: -15px; }
 
 .login-form__login {
   display: block;
@@ -626,7 +630,7 @@ section {
             border-radius: 17px;
     text-align: center;
     cursor: pointer;
-    padding-top: 13px;
+    padding-top: 12px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -688,7 +692,7 @@ section {
   border: 1px solid #b5bfc1;
   -webkit-border-radius: 25px;
           border-radius: 25px;
-  padding-top: 12px;
+  padding-top: 11px;
   padding-left: 11px;
   cursor: pointer;
   -webkit-user-select: none;
@@ -710,7 +714,7 @@ section {
   border: 1px solid #b5bfc1;
   -webkit-border-radius: 25px;
           border-radius: 25px;
-  padding-top: 12px;
+  padding-top: 11px;
   padding-left: 11px;
   cursor: pointer;
   margin-top: 1.3px;
@@ -822,7 +826,7 @@ section {
   -webkit-border-radius: 5px;
           border-radius: 5px;
   position: relative;
-  padding-top: 98px; }
+  padding-top: 93px; }
   .offer-bigWd:hover .bigWd-hover-block {
     display: block; }
 
@@ -835,7 +839,7 @@ section {
   text-align: center;
   -webkit-border-radius: 13px;
           border-radius: 13px;
-  padding-top: 8px;
+  padding-top: 6px;
   position: absolute;
   top: 5px;
   right: 5px;
@@ -1029,7 +1033,7 @@ section {
     background-color: #f19d1f;
     padding-top: 10px; }
   .entertainment-offer .offer-smallWd-description p {
-    margin-top: 35px; }
+    margin-top: 37px; }
   .entertainment-offer .offer-smallWd-description a {
     color: #f19e1f; }
 
@@ -1042,6 +1046,8 @@ section {
   .transportation-offer .smallWd-feature-icon {
     background-color: #87499b;
     padding-top: 10px; }
+  .transportation-offer .offer-smallWd-description p {
+    margin-top: 37px; }
   .transportation-offer .offer-smallWd-description a {
     color: #88499c; }
 
@@ -1311,7 +1317,8 @@ footer {
 .footer__subscribe__header {
   color: white;
   font-size: 24px;
-  text-align: center; }
+  text-align: center;
+  cursor: default; }
 
 .footer__subscribe__input {
   margin: 50px auto;
@@ -1630,8 +1637,8 @@ footer {
         cursor: hand;
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
-        padding-top: 1px;
-        padding-left: 0.3px; }
+        padding-top: 0;
+        padding-left: 1px; }
     .HeaderHiddenMenu ul {
       opacity: 0;
       margin-top: 15px;
